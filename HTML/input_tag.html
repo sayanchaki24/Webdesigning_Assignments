@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input tag</title>
+        <h1 style="text-align: center;">Form</h1>
+    </head>
+    <body bgcolor="aqua">
+        <form>
+            <h2><label>First name</label>
+            <input type="text" name="name" required><br>
+            <label>Last name </label>
+            <input type="text" name="name" required><br>
+            <hr>
+            <label>Preferred communication method</label><br></h2>
+            <input type="radio" id="Email" name="communication" value="email" required> Email<br>        
+            <input type="radio" name="communication" value="phone" required> Phone<br>
+            <input for="Email" type="text" name="communication" required><br>
+            <hr>
+            <h2>Select gender</h2>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female<br>
+            <hr>
+            <h2>Tick the documents you have right now</h2><br>
+            <input type="checkbox" id="pan" name="pan">
+            <label for="pan">Pan card</label><br>
+            <input type="checkbox" id="aadhar" name="aadhar">
+            <label for="aadhar">Aadhar</label><br>
+            <input type="checkbox" id="driving licence" name="driving licence">
+            <label for="driving licence">Driving licence</label><br>
+            <hr>
+            <h2>Select your course</h2>
+            <select name="cname" id="cname">
+                <option value="Select">Select</option>
+                <option value="AI/ML">Artificial intelligence and Machine learning</option>
+                <option value="CS">Cyber Security</option>
+                <option value="DS">Data Science </option>
+            </select><br>
+            <h2>Enter your Address</h2>
+            <input type="box" id="address"><br>
+            <input type="submit" value="Submit">
+
+    </body>
+</html>
