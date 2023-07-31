@@ -7,17 +7,15 @@
 </head>
 <body>
     <input type="text" id="myInput">
-    <div id = "output"></div>
+    <div id="output"></div>
     <script>
         const input = document.getElementById('myInput');
-        const output = document.getElementById("output")
-        function handleKeyDown(event){
-            if(event.keyCode == 13)
-            {
-                output.textContent="You entered:"+input.value;
-            }
-        }
-        input.addEventListener('keydown', handlekeyDown);
+        const outputDiv = document.getElementById('output');
+
+        function handleInput(){
+            outputDiv.textContent = "You Typed: " + input.value;
+                }
+                input.addEventListener('input', handleInput);
     </script>
 </body>
 </html>
