@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <title>Online Book Store</title>
+  <style>
+    .carousel img {
+      text-align: center;
+      height: 600px;
+    }
+  </style>
+</head>
+<body class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <img src="img/logo.png" />
+      <a class="navbar-brand text-secondary" href="#">
+        <h1>Book Haven</h1>
+      </a>
+      <br>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <br />
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">
+              <h5>Home</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#categories">
+              <h5>Categories</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#newlyArrived">
+              <h5>Newly Arrived</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#mostPopular">
+              <h5>Most Popular</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#aboutUs">
+              <h5>About us</h5>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Newly Arrived Section -->
+  <div class="container d-flex justify-content-center">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://m.media-amazon.com/images/I/91R5TW7tdzL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img1.od-cdn.com/ImageType-400/3450-1/%7BF24FDF1F-44E8-4A66-AD0F-626B8C737FBC%7DIMG400.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.kobo.com/book-images/ddf8d53d-7df5-4560-8fbd-43915f4f6a03/1200/1200/False/rich-dad-poor-dad-24.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pictures.abebooks.com/isbn/9781578150007-us-300.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://m.media-amazon.com/images/I/A1rHREAREhL._SL1500_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://m.media-amazon.com/images/I/815EN7L5ZsL._SL1500_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://m.media-amazon.com/images/I/51fxgceaGPL.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://m.media-amazon.com/images/I/81K+2pqDU-L._SL1500_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://m.media-amazon.com/images/I/81Br21BWhzL._SL1500_.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class=" col-12 col-sm-3 col-md-4 col-lg-6 mt-5 text-primary" style="text-align: center; padding-top: 150px;">
+      <h2>The more that you read, the more things you will know. The more that you learn, the more places you'll go.</h2>
+    </div>
+    <div class="col-sm-3 col-lg-6 mt-5">
+      <img src="img/book.png" class="img-fluid" alt="">
+    </div>
+  </div>
+
+    <!-- This is for science category -->
+    <div id = "categories">
+      <div class="row mt-5">
+        <div class="col-12">
+          <h1 class="text-center pt-24">Categories</h1>
+        </div>
+          <div class="col-sm-6 col-lg-6 mt-5">
+            <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+              <img src="img/science.png" style="height: 60px" alt="">
+              <h4 class="text-center">Science</h4>
+              <h5 class="text-center">This category contains all the books related to science.</h5>
+            </div>
+          </div>
+          <!-- This is for textbooks category -->
+          <div class="col-sm-6 col-lg-6 mt-5">
+            <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+              <img src="img/open-book-icon.png" style="height: 60px" alt="">
+              <h4 class="text-center pt-24">Text Books</h4>
+                <h5 class="text-center">This category contains all the books related to your syllabus.</h5>
+            </div>
+          </div>
+          <!-- This is for history category -->
+          <div class="col-sm-6 col-lg-6 mt-5">
+            <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+              <img src="img/history.png" style="height: 60px" alt="">
+              <h4 class="text-center pt-24">History</h4>
+              <h5 class="text-center">This category contains the books related to history.</h5>
+            </div>
+          </div>
+          <!-- This is for Biography category -->
+          <div class="col-sm-6 col-lg-6 mt-5">
+            <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+              <img src="img/biography.png" style="height: 60px" alt="">
+              <h4 class="text-center pt-24">Biography</h4>
+              <h5 class="text-center">This category contains the books related to biographies.</h5>
+            </div>
+          </div>
+          <!-- This is for Novels category -->
+          <div class="col-sm-6 col-lg-6 mt-5">
+            <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+              <img src="img/novel.png" style="height: 60px" alt="">
+              <h4 class="text-center pt-24">Novels</h4>
+              <h5 class="text-center">This category contains the books of novels.</h5>
+            </div>
+          </div>
+          <!-- This is for Stories category -->
+          <div class="col-sm-6 col-lg-6 mt-5">
+            <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+              <img src="img/poem_story.png" style="height: 60px" alt="">
+              <h4 class="text-center pt-24">Stories/Poems</h4>
+                <h5 class="text-center">This category contains the books of stories and poems.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Most Popular -->
+  <div id="mostPopular">
+    <div class="row mt-5">
+      <div class="col-12">
+        <h1 class="text-center pt-24">Most Popular</h1>
+      </div>
+      <div class="col-12">
+        <div class="dropdown float-end mt-5">
+          <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Filter
+          </button>
+          <ul class="dropdown-menu dropdown-menu-sts" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">6</a></li>
+            <li><a class="dropdown-item" href="#">9</a></li>
+            <li><a class="dropdown-item" href="#">12</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-6 mt-5">
+        <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+          <img src="https://m.media-amazon.com/images/I/91R5TW7tdzL._AC_UF1000,1000_QL80_.jpg" style="height: 60px" alt="">
+          <h4 class="text-center pt-24">Wish I could tell you</h4>
+          <h5>A book by Durjoy Datta</h5>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-6 mt-5">
+        <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+          <img src="https://m.media-amazon.com/images/I/81Br21BWhzL._SL1500_.jpg" style="height: 60px" alt="">
+          <h4 class="text-center pt-24">LINUX BASICS FOR HACKERS</h4>
+          <h5>A book by OccupyTheWeb</h5>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-6 mt-5">
+        <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+          <img src="https://m.media-amazon.com/images/I/91R5TW7tdzL._AC_UF1000,1000_QL80_.jpg" style="height: 60px" alt="">
+          <h4 class="text-center pt-24">Wish I could tell you</h4>
+          <h5>A book by Durjoy Datta</h5>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-6 mt-5">
+        <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+          <img src="https://m.media-amazon.com/images/I/91R5TW7tdzL._AC_UF1000,1000_QL80_.jpg" style="height: 60px" alt="">
+          <h4 class="text-center pt-24">Wish I could tell you</h4>
+          <h5>A book by Durjoy Datta</h5>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-6 mt-5">
+        <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+          <img src="https://m.media-amazon.com/images/I/91R5TW7tdzL._AC_UF1000,1000_QL80_.jpg" style="height: 60px" alt="">
+          <h4 class="text-center pt-24">Wish I could tell you</h4>
+          <h5>A book by Durjoy Datta</h5>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-6 mt-5">
+        <div class="h-100 d-flex flex-column align-items-center justify-content-center">
+          <img src="https://m.media-amazon.com/images/I/91R5TW7tdzL._AC_UF1000,1000_QL80_.jpg" style="height: 60px" alt="">
+          <h4 class="text-center pt-24">Wish I could tell you</h4>
+          <h5>A book by Durjoy Datta</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About us info -->
+  <div id="aboutUs">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center pt-5">About Us</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class=" col-sm-12 col-lg-3 footer-contact mt-5" style="text-align: center">
+        <h3>Book Haven</h3>
+        <h5>
+          Manyata Tech Park, <br>
+          South Bangalore, 560036<br>
+          Karnataka, India
+        </h5>
+        <h5>Phone No: +918317326776</h5>
+        <h5>Email: bookhaven17@gmail.com</h5>
+      </div>
+      <div class="col-sm-12 col-lg-3 footer-contact mt-5" style="text-align: center">
+        <h3>Our Social Networks</h3>
+        <div class="icons">
+          <a href="https://facebook.com/">
+            <div class="icons-ml-2 mt-3"><i class="bi bi-facebook"></i>&nbsp;Book Haven</div>
+          </a>
+          <a href="https://www.instagram.com/">
+            <div class="icons"><i class="bi bi-instagram">&nbsp;@book_haven</i></div>
+          </a>
+          <a href="https://twitter.com/">
+            <div class="icons"><i class="bi bi-twitter"></i>&nbsp;@book_haven</div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6 footer-contact mt-5 text-center" style="text-align:center">
+        <form>
+          <div class="form-group col-sm-12 c">
+            <label for="review_message"><h3>Review About your experience in this site</h3></label>
+            <input type="text" class="form-control" id="review_message" aria-describedby="review" placeholder="Enter your reviews here...">
+            <button type="button" class="btn btn-primary btn-lg mt-3" onclick="submitted()">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="copyright text-center pt-100">
+        © 2023 Book Haven. All rights reserved.
+      </div>
+  </div>
+  </div>
+  <script type="text/javascript">
+    function submitted(){
+      alert("Review Submitted");
+    }
+  </script>
+</body>
+</html>
